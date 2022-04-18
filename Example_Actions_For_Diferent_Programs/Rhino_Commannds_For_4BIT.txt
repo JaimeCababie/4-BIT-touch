@@ -1,0 +1,72 @@
+Sintax for rhino commands using 4BIT and circuitpython:
+
+# To use the .write function it i necesary  to import the adafruit_hid library and to declare the layout in the code:
+
+#Libraies for human device interface
+	import usb_hid
+	from adafruit_hid.keyboard import Keyboard
+	from adafruit_hid.keycode import Keycode
+	from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+
+	#declare the 4BIT as an input
+	fourbit = Keyboard(usb_hid.devices)
+	layout = KeyboardLayoutUS(fourbit) 
+
+Rhino commands sructure: 
+action(): #this should be inside one of the functions to work 
+	layout.write("command\n") #replace "command" for the comand you want to execute.
+	time.sleep(0.5) #Give a small time delay
+	fourbit.send(Keycode.ENTER) #press enter to execute command.
+
+Some command examples for Rhino:
+
+	layout.write("extrude\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("explode\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("polyline\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("hide\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("split\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("filletedge\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("filletsurface\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("BooleanDifference\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("BooleanUnion\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("Sweep\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+	layout.write("Sphere\n")  
+	time.sleep(0.5) 
+	fourbit.send(Keycode.ENTER) 
+
+
+
+
+
+
+ 
