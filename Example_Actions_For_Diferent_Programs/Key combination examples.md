@@ -2,6 +2,7 @@
 
 For Windows:
 
+    #Copy
     fourbit.send(Keycode.CONTROL, Keycode.C)
     #Paste
     fourbit.send(Keycode.CONTROL, Keycode.V)
