@@ -30,5 +30,3 @@ For Windows:
     fourbit.send(Keycode.CONTROL, Keycode.P)
     #select all
     fourbit.send(Keycode.CONTROL, Keycode.A)
-
-For mac:
