@@ -1,6 +1,7 @@
 #This are some examples of Key combination macros that the 4bit is able to execute: 
 
 For Windows:
+
     fourbit.send(Keycode.CONTROL, Keycode.C)
     #Paste
     fourbit.send(Keycode.CONTROL, Keycode.V)
