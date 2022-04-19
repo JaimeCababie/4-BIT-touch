@@ -1,6 +1,6 @@
 Sintax for fusion360 commands using 4BIT and circuitpython:
 
-# To use the .write function it i necesary  to import the adafruit_hid library and to declare the layout in the code:
+# To use the .write function it is necesary  to import the adafruit_hid library and to declare the layout in the code:
 
 #Libraies for human device interface
 	import usb_hid
