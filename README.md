@@ -5,6 +5,7 @@ The 4-BIT touch uses a QTPY M0 as the mirocontroler and Circuit Python's HID lib
 There are 5 capacitive touch buttons in the PCB design four of them are ment to be used as inputs and the other one is ment to be used to change profiles. 
 
 There are 15 key combos available when using 4 Keys as inputs: 
+
 ![Asset 1](https://user-images.githubusercontent.com/98760075/163679366-d2e5aa13-e731-4e50-bcb1-6c5d15cfeffe.png)
 
 How does the code work: 
