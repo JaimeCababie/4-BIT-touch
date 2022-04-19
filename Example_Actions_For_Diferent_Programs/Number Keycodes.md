@@ -15,6 +15,7 @@ KeyCodes for numbers:
   0=0X27
 
 You can also declare them as variables to be used later in the code: 
+
 #Copy and paste this variables before the action definitions: 
 
     ONE = 0X1E
