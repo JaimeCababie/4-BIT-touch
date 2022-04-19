@@ -58,7 +58,7 @@ The macros that the 4BIT will execute are declared inside functions called actio
 
 #There are 15 diferent key combinations available, therefore there are 15 actions called in the code:
 
-first an the funtion in the code is defined:
+first an the function in the code is defined:
 #then the macro that the 4BIT is going to execute is declared inside the function definition: 
 
 	def action():
@@ -80,7 +80,7 @@ Inside the While Loop the QTPY is sensing which keys are pressed:
 
 When a key is pressed it adds to the value of the variaible val. 
 	
-to check which combination of keys are being pressed, we need to check the value of val using an if statment. 
+To check which combination of keys are being pressed, we need to check the value of val using an if statement. 
 
 For example:
 #In this case key1, key2, key3 and key4 are being pressed.
@@ -91,7 +91,7 @@ For example:
 
 	if (val==1001):
 		
-When a value is equal to the If statment the action inside of the if statment is executed: 
+When a value is equal to the If statement the action inside of the if statement is executed: 
 
         if (val==1111): #Action
         	action()
