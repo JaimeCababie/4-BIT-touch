@@ -1,10 +1,11 @@
-Sintaxx for Illustrator (and other Adobe Software) commands using the 4BIT and circuitpython:
+Sintax for Illustrator (and other Adobe Software) commands using the 4BIT and circuitpython:
 
 #The commands in illustrator mainly use key combinattions, because of this, it is optimal to use the fourbit.send() command. 
 
 First we need to import the adafruit_hid libraries:
 
 #Libraies for human device interface
+
 	import usb_hid
 	from adafruit_hid.keyboard import Keyboard
 	from adafruit_hid.keycode import Keycode
